@@ -74,7 +74,17 @@ def triangle():
 #
 ###############################################################################
 def color_test():
+    color = 'green'
+    thick = 5
+    window = rg.TurtleWindow()
+    window.delay(25)
+    dave = rg.SimpleTurtle('turtle')
+    dave.pen = rg.Pen(color, 21)
+    jack = rg.SimpleTurtle('turtle')
+    jack.pen = rg.Pen('pink', thick)
     
+
+
 
 
 ###############################################################################
