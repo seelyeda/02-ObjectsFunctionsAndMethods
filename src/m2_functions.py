@@ -21,7 +21,7 @@ import rosegraphics as rg
 
 def main():
     triangle()
-    color_test('red',8)
+    color_test('red',20)
     color_test('pink',10)
     #"""
     # TESTS the functions that you will write below.
@@ -71,7 +71,7 @@ def triangle():
 #
 #   You may name the function and its parameters whatever you wish.
 #
-# TODO: 4b.  In main, CALL your function at least TWICE (with different values
+# DONE: 4b.  In main, CALL your function at least TWICE (with different values
 #   for the arguments) to test whether you defined the function correctly.
 #
 ###############################################################################
@@ -90,7 +90,7 @@ def color_test(a,b):
 
 
 ###############################################################################
-# TODO: 5.
+# DONE: 5.
 #   COMMIT-and-PUSH your work (after changing this TO-DO to DONE).
 #
 #   As a reminder, here is how you should do so:
