@@ -21,6 +21,8 @@ import rosegraphics as rg
 
 def main():
     triangle()
+    color_test('red',8)
+    color_test('pink',10)
     #"""
     # TESTS the functions that you will write below.
     #You write the tests per the _TODO_s below.
@@ -73,16 +75,16 @@ def triangle():
 #   for the arguments) to test whether you defined the function correctly.
 #
 ###############################################################################
-def color_test():
-    color = 'green'
-    thick = 5
+def color_test(a,b):
     window = rg.TurtleWindow()
     window.delay(25)
     dave = rg.SimpleTurtle('turtle')
-    dave.pen = rg.Pen(color, 21)
+    dave.pen = rg.Pen('green',b)
     jack = rg.SimpleTurtle('turtle')
-    jack.pen = rg.Pen('pink', thick)
-    
+    jack.pen = rg.Pen(a,5)
+    dave.forward(100)
+    jack.backward(100)
+
 
 
 
